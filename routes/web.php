@@ -8,3 +8,5 @@ Route::get('/', function () {
 });
 
 Volt::route('/reverse/{word}', 'reverse');
+
+Volt::route('/{mode}/{word}', 'upper_lower');
